@@ -1,0 +1,98 @@
+body {
+	font-family: sans-serif;
+}
+.categories {
+	max-width: 1100px;
+	width: 100%;
+}
+
+.categories h1 {
+	margin-bottom: 10px;
+}
+
+.categories p {
+	color: #2e3e48;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.categories ul {
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.categories ul li {
+	flex-basis: 25%;
+	flex-grow: 1;
+	margin-bottom: 18px;
+}
+
+.categories-items a {
+	color: #2e3e48;
+	text-decoration: none;
+}
+
+.categories-items h4 {
+	margin: 8px 0px 0px;
+}
+
+.categories-items-image {
+	min-height: 160px;
+	max-width: 260px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	margin-right: 18px;
+}
+
+.categories-items-image.item-1 {
+	background-image: url('https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg');
+}
+
+.categories-items-image.item-2 {
+	background-image: url('https://secure.meetupstatic.com/photos/event/2/e/a/d/600_450131949.jpeg');
+}
+
+.categories-items-image.item-3 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/c/600_450131932.jpeg");
+}
+
+.categories-items-image.item-4 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/e/600_450131950.jpeg");
+}
+
+.categories-items-image.item-5 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/c/600_450131948.jpeg");
+}
+
+.categories-items-image.item-6 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/b/600_450131931.jpeg");
+}
+
+.categories-items-image.item-7 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/a/600_450131946.jpeg");
+}
+
+.categories-items-image.item-8 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/1/600_450131937.jpeg");
+}
+
+.categories-items-image.item-9 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/4/600_450131940.jpeg");
+}
+
+.categories-items-image.item-10 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/3/600_450131939.jpeg");
+}
+
+.categories-items-image.item-11 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/6/600_450131942.jpeg");
+}
+
+.categories-items-image.item-12 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/5/600_450131941.jpeg");
+}
