@@ -58,22 +58,25 @@ p {
 	font-size: 24px;
 }
 
-.meetup-work-icon i, .meetup-work-item a {
+.meetup-work-item a {
 	color: #00a2c7;
 }
 
-.meetup-work-icon i {
-	height: 72px;
-	width: 72px;
-} 
 
 .meetup-work-item a {
 	font-weight: bold;
 	text-decoration: none;
 }
 
-.meetup-work-item a i {
-	padding-left: 20px;
-	font-size: 14px;
-	transform: scale(1.5,1);
+#icon-plus, #icon-search, #icon-arrow-right--small {
+	fill: #00a2c7 !important;
+}
+
+.flex-box {
+	display: flex;
+	align-items: center;
+}
+
+.flex-box svg {
+	padding-left: 16px;
 }

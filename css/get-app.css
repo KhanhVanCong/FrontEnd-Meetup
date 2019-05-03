@@ -1,0 +1,65 @@
+body, h1 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Graphik Meetup,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.get-app-ios-android {
+	background-color: #fff;
+}
+
+.get-app-container {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.get-app-detail {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.get-app-detail .info h1 span {
+	font-size: 32px;
+	font-weight: 550 !important;
+	color: #2e3e48;
+}
+
+.get-app-detail a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 550 !important;
+	color: #00a2c7;
+	display: flex;
+	align-items: center;
+}
+
+.get-app-detail a svg {
+	fill: #00a2c7;
+	padding-left: 16px;
+}
+
+.get-app-detail .download-image {
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.get-app-detail .download-image img{
+	max-width: 160px;
+}
+
+.get-app-detail .download-image img:first-child{
+	margin-right: 15px;
+}
+
+.get-app-image {
+	max-height: 300px;
+}
+
+.get-app-image img{
+	max-height: 300px;
+    max-width: 100%;
+}
