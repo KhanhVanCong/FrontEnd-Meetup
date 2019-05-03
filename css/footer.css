@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Graphik Meetup,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.footer ul{
+	list-style-type: none;
+}
+
+.menu-footer-detail, .cp-detail {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.menu-footer {
+
+	background-color: #353e48;
+}
+
+.ft-create-group {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+.ft-create-group a{
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.ft-create-group a:hover {
+	text-decoration: none;
+}
+
+.ft-menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.ft-title-menu {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.ft-item {
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+
+.ft-menu ul li {
+	padding-bottom: 8px;
+}
+
+.ft-item a {
+	color: #bec5c4;
+	text-decoration: none;
+}
+
+
+.ft-follow-us svg {
+	fill: #bec5c4;
+}
+
+.ft-follow-us .ft-social ul {
+	display: flex;
+}
+
+.ft-follow-us .ft-social ul li {
+	padding-right: 40px;
+}
+
+.ft-follow-us .ft-social ul li:last-child {
+	padding-right: 0px;
+}
+
+
+.ft-lang-download-app {
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+.ft-select-lang {
+	width: 100%;
+}
+
+.ft-select-lang select{
+	width: 100%;
+    padding: 16px;
+    background-color: #0f1721;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #0f1721;
+    box-sizing: border-box;    
+}
+
+.ft-select-lang select:hover {
+	box-sizing: border-box;
+	border: 1px solid hsla(0,0%,100%,.7);
+}
+
+.ft-download-app {
+	margin-top: 40px;
+}
+
+.ft-download-app img {
+	max-width: 160px;
+	width: 100%;
+}
+
+.ft-download-app img:first-child {
+	padding-right: 15px;
+}
+
+
+/*Copy Right*/
+
+.copyright {
+	background-color: #2f363f;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 15px;
+	color: #fffcf9;
+}
+
+.ft-policy {
+	padding-top: 20px;
+}
+
+.ft-cp-info span:first-child:after, .ft-policy a span:after {
+	content: ".";
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.ft-policy a {
+	color: #fffcf9;
+	text-decoration: none;
+}
+
+.ft-policy a:last-child span:after {
+	content: " ";
+}
