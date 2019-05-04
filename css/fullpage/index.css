@@ -1,0 +1,706 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Graphik Meetup,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+}
+
+/*****************/
+/*header*/
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-bottom: 1px solid #e5e9ed;
+}
+
+.hd-logo img {
+	max-height: 44px;
+}
+
+.hd-login-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hd-login-group a {
+	text-decoration: none;
+}
+
+.hd-new-group {
+	padding: 5px 15px 5px 0px;
+	border-right: 1px solid #e6e8e9;
+}
+
+.hd-new-group a {
+	color: #3aa3c7;
+	font-size: 14px;
+	font-weight: 550 
+}
+
+.hd-login-register a {
+	padding-left: 15px;
+	color: #a3a9ae;
+	font-size: 14px; 
+}
+/*End header*/
+
+
+/*****************/
+/*Video*/
+.video-source-info {
+	min-height: 460px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.video-source-info video {
+	bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+ }
+
+ .video-source-info .video-info {
+ 	position: absolute;
+ 	z-index: 10;
+ 	max-width: 1100px;
+ 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+ 	top: 35%;
+ 	left: 10%;
+ 	color: #fff;
+	text-align: center;
+ }
+
+  .video-source-info .video-info h2 {
+  	font-size: 42px;
+  }
+
+  .video-source-info .video-info p {
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 40px;	
+  }
+
+  .video-source-info .video-info a {
+  	font-size: 20px;
+  	color: #fff;
+  	text-decoration: none;
+  	padding: 14px 100px;
+  	background-color: #f13a59;
+  	border-radius: 4px;
+  }
+
+  .video-source-info .video-info a:hover {
+	background-color: #e81035;
+  }
+/*End Video*/
+
+/*****************/
+/*Type of Meetup*/
+.type-of-meetup {
+	border-bottom: 1px solid #e5e9ed;
+}
+
+.type-of-meetup-container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 25px 0px;
+}
+
+.type-of-meetup-container ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.type-of-meetup-container ul li a {
+	text-decoration: none;
+	color: #4b4b48;
+	font-size: 13px;
+	font-weight: 550;
+	padding:5px 20px;
+	border-radius: 3px;
+	background-color: #e5e9ed;
+}
+/*End Type of Meetup*/
+
+
+/*****************/
+/*Grow with Meetup*/
+.grow-with-meetup {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.gr-containter {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.gr-introduction {
+	box-sizing: border-box;
+	flex-basis: 720px;
+	background-color: #00455d;
+	height: 380px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gr-intro-detail {
+	margin: 0 70px;
+}
+
+.gr-introduction h4 {
+	color: #fff;
+	font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+
+.gr-introduction p {
+	color: #fffcfa;
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 40px;
+}
+
+.gr-intro-detail a {
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 30px;
+	background-color: #0098ab;
+	border-radius: 4px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin-right: 5px;
+}
+
+.gr-intro-detail a:last-child {
+	background-color: #00455d;
+	border: 1px solid white;
+	margin-right: 0px;
+} 
+
+.gr-info {
+	flex-basis: 340px;
+	max-width: 340px;
+}
+
+.gr-info-bg-img {
+	color: #fff;
+	background-size: cover;
+	height: 380px;
+	
+}
+
+.gr-info-bg-img.item-1 {
+	background-image: url("../../img/grow-up-meetup/bri.jpg");
+}
+
+.gr-info-bg-img.item-2 {
+	background-image: url("../../img/grow-up-meetup/lance.jpg");
+}
+
+.gr-info-bg-img.item-3 {
+	background-image: url("../../img/grow-up-meetup/Loka.jpg");
+}
+
+.gr-info-bg-img .over-lay {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0,0,5,0.9612219887955182) 0%, rgba(0,0,0,0) 50%);
+}
+
+.gr-info-bg-img .over-lay p {
+	margin-top: 10px;
+	margin-bottom: 18%;
+	font-size: 15px;
+	text-align: center;
+}
+/*****************/
+/*End Grow with Meetup*/
+
+
+/*****************/
+/*Categories*/
+.categories {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.categories h1 {
+	margin-bottom: 10px;
+}
+
+.categories p {
+	color: #2e3e48;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.categories ul {
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.categories ul li {
+	flex-basis: 25%;
+	flex-grow: 1;
+	margin-bottom: 18px;
+}
+
+.categories-items a {
+	color: #2e3e48;
+	text-decoration: none;
+}
+
+.categories-items h4 {
+	margin: 8px 0px 0px;
+}
+
+.categories-items-image {
+	min-height: 160px;
+	max-width: 260px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	margin-right: 18px;
+}
+
+.categories-items-image.item-1 {
+	background-image: url('https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg');
+}
+
+.categories-items-image.item-2 {
+	background-image: url('https://secure.meetupstatic.com/photos/event/2/e/a/d/600_450131949.jpeg');
+}
+
+.categories-items-image.item-3 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/c/600_450131932.jpeg");
+}
+
+.categories-items-image.item-4 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/e/600_450131950.jpeg");
+}
+
+.categories-items-image.item-5 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/c/600_450131948.jpeg");
+}
+
+.categories-items-image.item-6 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/b/600_450131931.jpeg");
+}
+
+.categories-items-image.item-7 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/a/600_450131946.jpeg");
+}
+
+.categories-items-image.item-8 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/1/600_450131937.jpeg");
+}
+
+.categories-items-image.item-9 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/f/600_450131951.jpeg");
+}
+
+.categories-items-image.item-10 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/3/600_450131939.jpeg");
+}
+
+.categories-items-image.item-11 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/6/600_450131942.jpeg");
+}
+
+.categories-items-image.item-12 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/5/600_450131941.jpeg");
+}
+
+.categories-items-image.item-13 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/4/600_450131940.jpeg");
+}
+
+.categories-items-image.item-14 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/4/8/3/f/600_450858495.jpeg");
+}
+
+.categories-items-image.item-15 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/2/600_450131938.jpeg");
+}
+
+.categories-items-image.item-16 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/5/600_450131925.jpeg");
+}
+
+.categories-items-image.item-17 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/8/8/600_450131912.jpeg");
+}
+
+.categories-items-image.item-18 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/6/600_450131926.jpeg");
+}
+
+.categories-items-image.item-19 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/a/600_450131930.jpeg");
+}
+
+.categories-items-image.item-20 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/9/600_450131945.jpeg");
+}
+
+.categories-items-image.item-21 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/9/600_450131929.jpeg");
+}
+
+.categories-items-image.item-22 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/e/600_450131934.jpeg");
+}
+
+.categories-items-image.item-23 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/b/600_450131947.jpeg");
+}
+
+.categories-items-image.item-24 {
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/7/600_450131927.jpeg");
+}
+
+/*End Categories*/
+
+/*****************/
+/*How meetup Work*/
+.meetup-work {
+	background-color: #0f1721;
+	color: #fff;
+	padding-top: 60px; 
+}
+
+.meetup-work-container {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+
+.meetup-work-container h2{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500px;
+	margin-bottom: 40px;
+	line-height: 1.1;
+}
+
+.meetup-work-detail {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 100px;
+}
+
+.meetup-work-detail-items {
+	display: flex;
+}
+
+.meetup-work-detail-items .meetup-work-item {
+	padding-left: 20px
+}
+
+.meetup-work-detail-items.start-group {
+	padding-left: 20px;
+}
+
+.meetup-work-item p {
+	color: #f7ffff;
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 1.45;
+}
+
+.meetup-work-item h3 {
+	font-size: 24px;
+}
+
+.meetup-work-item a {
+	color: #00a2c7;
+}
+
+
+.meetup-work-item a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#icon-plus, #icon-search, #icon-arrow-right--small {
+	fill: #00a2c7 !important;
+}
+
+.flex-box {
+	display: flex;
+	align-items: center;
+}
+
+.flex-box svg {
+	padding-left: 16px;
+}
+
+/*End How Meetup Work*/
+
+
+/*****************/
+/*Get The App*/
+.get-app-ios-android {
+	background-color: #fff;
+}
+
+.get-app-container {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.get-app-detail {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.get-app-detail .info h1 span {
+	font-size: 32px;
+	font-weight: 550 !important;
+	color: #2e3e48;
+}
+
+.get-app-detail a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 550 !important;
+	color: #00a2c7;
+	display: flex;
+	align-items: center;
+}
+
+.get-app-detail a svg {
+	fill: #00a2c7;
+	padding-left: 16px;
+}
+
+.get-app-detail .download-image {
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.get-app-detail .download-image img{
+	max-width: 160px;
+}
+
+.get-app-detail .download-image img:first-child{
+	margin-right: 15px;
+}
+
+.get-app-image {
+	max-height: 300px;
+}
+
+.get-app-image img{
+	max-height: 300px;
+    max-width: 100%;
+}
+
+/*End Get The App*/
+
+/*****************/
+/*Footer*/
+.footer ul{
+	list-style-type: none;
+}
+
+.menu-footer-detail, .cp-detail {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.menu-footer {
+
+	background-color: #353e48;
+}
+
+.ft-create-group {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+.ft-create-group a{
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.ft-create-group a:hover {
+	text-decoration: none;
+}
+
+.ft-menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.ft-title-menu {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.ft-item {
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+
+.ft-menu ul li {
+	padding-bottom: 8px;
+}
+
+.ft-item a {
+	color: #bec5c4;
+	text-decoration: none;
+}
+
+
+.ft-follow-us svg {
+	fill: #bec5c4;
+}
+
+.ft-follow-us .ft-social ul {
+	display: flex;
+}
+
+.ft-follow-us .ft-social ul li {
+	padding-right: 40px;
+}
+
+.ft-follow-us .ft-social ul li:last-child {
+	padding-right: 0px;
+}
+
+
+.ft-lang-download-app {
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+.ft-select-lang {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+
+.ft-select-lang select{
+	width: 100%;
+    padding: 16px 40px 16px 16px;
+    background-color: #0f1721;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #0f1721;
+    box-sizing: border-box;    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.ft-select-lang select:hover {
+	box-sizing: border-box;
+	border: 1px solid hsla(0,0%,100%,.7);
+}
+
+.ft-select-lang span {
+	position: absolute;
+	right: 16px;
+}
+
+.ft-download-app {
+	margin-top: 40px;
+}
+
+.ft-download-app img {
+	max-width: 160px;
+	width: 100%;
+}
+
+.ft-download-app img:first-child {
+	padding-right: 15px;
+}
+
+
+/*Copy Right*/
+
+.copyright {
+	background-color: #2f363f;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	color: #fffcf9;
+}
+
+.ft-cp-info, .ft-policy {
+	display: flex;
+	align-items: center;
+}
+
+.ft-policy {
+	padding-top: 10px;
+}
+
+.ft-cp-info span, .ft-policy span {
+	display: flex;
+    align-items: center;
+}
+
+.ft-cp-info span:first-child:after, .ft-policy a span:after {
+	content: ".";
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.ft-policy a {
+	color: #fffcf9;
+	text-decoration: none;
+}
+
+.ft-policy a:last-child span:after {
+	content: " ";
+}
+
+/*End Footer*/
