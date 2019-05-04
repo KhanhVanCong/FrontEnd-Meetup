@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Graphik Meetup,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.hd-logo img {
+	max-height: 44px;
+}
+
+.hd-login-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hd-login-group a {
+	text-decoration: none;
+}
+
+.hd-new-group {
+	padding: 5px 15px 5px 0px;
+	border-right: 1px solid #e6e8e9;
+}
+
+.hd-new-group a {
+	color: #3aa3c7;
+	font-size: 14px;
+	font-weight: 550 
+}
+
+.hd-login-register a {
+	padding-left: 15px;
+	color: #a3a9ae;
+	font-size: 14px; 
+}
+
