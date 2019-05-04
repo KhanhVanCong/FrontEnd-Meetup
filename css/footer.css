@@ -89,22 +89,33 @@ body {
 
 .ft-select-lang {
 	width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
 }
+
 
 .ft-select-lang select{
 	width: 100%;
-    padding: 16px;
+    padding: 16px 40px 16px 16px;
     background-color: #0f1721;
     color: white;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #0f1721;
     box-sizing: border-box;    
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 .ft-select-lang select:hover {
 	box-sizing: border-box;
 	border: 1px solid hsla(0,0%,100%,.7);
+}
+
+.ft-select-lang span {
+	position: absolute;
+	right: 16px;
 }
 
 .ft-download-app {
@@ -125,14 +136,24 @@ body {
 
 .copyright {
 	background-color: #2f363f;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 15px;
 	color: #fffcf9;
 }
 
+.ft-cp-info, .ft-policy {
+	display: flex;
+	align-items: center;
+}
+
 .ft-policy {
-	padding-top: 20px;
+	padding-top: 10px;
+}
+
+.ft-cp-info span, .ft-policy span {
+	display: flex;
+    align-items: center;
 }
 
 .ft-cp-info span:first-child:after, .ft-policy a span:after {
@@ -140,6 +161,7 @@ body {
 	padding-right: 10px;
 	padding-left: 10px;
 	font-size: 20px;
+	padding-bottom: 10px;
 }
 
 .ft-policy a {
