@@ -1,14 +1,54 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+
+                        {
+                            "text": "Root",
+                            "state": {
+                                "opened": true
+                            },
+                            "type": "demo",
+                            "children": [ 
+                                {
+                                    "text": "Child node 1",
+                                    "li_attr": {
+                                        "class": "li-style"
+                                    },
+                                    "a_attr": {
+                                        "class": "a-style"
+                                    },
+                                    "icon": "feather icon-feather"
+                                },
+                                {
+                                    "text": "Child node 2",
+                                    "state": {
+                                        "opened": true
+                                    },
+                                    "icon": "feather icon-feather",
+                                    "children": [
+                                        {
+                                            "text": "Grandchild 1",
+                                            "state": {
+                                               
+                                                "selected": true
+                                            }
+                                        },
+                                        {
+                                            "text": "Grandchild 2",
+                                            "state": {
+                                                "disabled": true
+                                            },
+                                            "children": ["Grandson 1", "Grandson 2"]
+                                        },
+                                        {
+                                            "text": "Grandchild 3",
+                                            "icon": "feather icon-feather"
+                                        },
+                                    ]
+                                },
+                                {
+                                    "text": "Child node 3",
+
+                                    "children": ["Grandchild 1", "Grandchild 1"]
+                                },
+                            ]
+                        } 
+                    ] 
